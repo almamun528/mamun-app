@@ -1,1 +1,23 @@
 @import "tailwindcss";
+@plugin "daisyui";
+/* Add Global Css */
+#btn {
+  background-color: purple;
+  color: white;
+  padding: 10px 26px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+body {
+  background-color: black;
+  color: white;
+}

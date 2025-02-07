@@ -1,3 +1,4 @@
+import Hero from "./components/Hero"
 
 
 function App() {
@@ -5,9 +6,13 @@ function App() {
 
   return (
     <>
-     <h2 className="text-center bg-blue-800 text-5xl">Hello world</h2>
+      <section className="w-10/12 mx-auto py-1" >
+        <header>Nav Bar</header>
+
+        <Hero />
+      </section>
     </>
-  )
+  );
 }
 
 export default App
