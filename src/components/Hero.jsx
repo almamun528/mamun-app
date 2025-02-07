@@ -10,7 +10,7 @@ import { FaSquareUpwork, FaUpwork } from "react-icons/fa6";
 function Hero() {
   return (
     <>
-      <section className=" md:grid md:grid-cols-12 gap-4">
+      <section className=" md:grid md:grid-cols-12 gap-4 pb-0 mb-0">
         {/* Left side is starting  */}
         <div className="left md:col-span-6">
           <h1 className="text-purple-400">
