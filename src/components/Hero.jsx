@@ -26,14 +26,21 @@ function Hero() {
         </div>
         <br />
         {/* Right Side Starts from here */}
-        <div className="right relative bg-black overflow-hidden z-50">
+        <div className="right shadow-2xl relative bg-black overflow-hidden z-50">
           <div className="border-2 border-purple-500 shadow-2xl rounded-lg ">
+            {/*  top left circle */}
             <div
               className="w-20 h-20 rounded-full absolute bg-purple-500 p-12 -z-1 overflow-hidden
           -left-4 -top-4 opacity-30"
             ></div>
+            {/* top right  */}
+            <div
+              className="w-20 h-20 rounded-full absolute bg-purple-800 p-20 -z-1 overflow-hidden
+          -right-7  -top-4 opacity-30"
+            ></div>
+            <div id="triangle-up" className=" -z-1 absolute bottom-10 left-2 top-[200px]"></div>
 
-            <img className="max-w-64 mx-auto" src={myImage} alt="" />
+            <img className="max-w-64  mx-auto" src={myImage} alt="" />
           </div>
         </div>
       </section>
