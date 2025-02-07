@@ -3,7 +3,7 @@ import businessWebsiteImage from './assets/carbooking.png'
 import ecommerceWeb from './assets/ecommerceWebsite.png'
 import digitalProduct from './assets/digitalProduct.png'
 import hotelBooking from './assets/hotel booking website.png'
-import ecommerceReact from './assets/ecommerceWebsite.png'
+import ecommerceReact from './assets/assignment-7.png'
 import react1 from './assets/react1.png'
 import { FaGithub } from 'react-icons/fa'
 function Wordpress() {

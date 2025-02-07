@@ -1,4 +1,5 @@
 
+import Education from "./components/Education";
 import Hero from "./components/Hero"
 import Skills from "./components/Skills";
 import Wordpress from "./Wordpress";
@@ -18,6 +19,8 @@ function App() {
         <div className="divider divider-secondary"></div>
 
         <Wordpress/>
+
+        <Education/>
       </section>
     </>
   );
