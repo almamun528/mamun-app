@@ -21,10 +21,13 @@ function Education() {
             <p>
               2. Now I am a student of Gazipur Central Law Collage, Gazipur.
             </p>
+            <p>
+              4. Learning Backend From W3 School and Youtube.
+            </p>
           </div>
           <div className="right space-y-3 mt-10 md:mt-0">
             <h1 className="my-2 text-xl ">
-              No One Is Perfect But I Always Learning New things..
+              No One Is Perfect But I'M Always Learning New things..
             </h1>
             <p>1. English Speaking</p>
             <p>2. Hindi Speaking</p>

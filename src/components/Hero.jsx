@@ -4,9 +4,11 @@ import htmlImage from "../assets/html.svg";
 import tailwindImage from "../assets/tailwind.svg";
 import reactImage from "../assets/react.svg";
 import jsImage from "../assets/js.svg";
+import myCV from '../assets/DevCV.pdf'
 import { FaGithub, FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
-import { SiFiverr } from "react-icons/si";
+
 import { FaSquareUpwork, FaUpwork } from "react-icons/fa6";
+import { CiMail } from "react-icons/ci";
 function Hero() {
   return (
     <>
@@ -30,7 +32,9 @@ function Hero() {
           <br />
           {/* button  */}
           <button id="btn" className="hover:animate-pulse">
+             <a href={myCV} download> 
             Download CV
+            </a>
           </button>
 
           <div className="mt-10">
@@ -70,6 +74,15 @@ function Hero() {
               >
                 <button className="hover:animate-pulse" id="social">
                   <FaLinkedinIn />
+                </button>
+              </a>
+              <a
+                href="mailto:mamun.jsdev@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="hover:animate-pulse" id="social">
+                  <CiMail />
                 </button>
               </a>
             </div>

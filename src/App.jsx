@@ -1,5 +1,6 @@
 
 import Education from "./components/Education";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero"
 import Skills from "./components/Skills";
 import Wordpress from "./Wordpress";
@@ -21,7 +22,9 @@ function App() {
         <Wordpress/>
 
         <Education/>
+        <br />
       </section>
+        <Footer/>
     </>
   );
 }
